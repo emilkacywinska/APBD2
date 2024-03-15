@@ -6,11 +6,11 @@ Console.WriteLine(("Max value is " + max));
 static double GetMax(int[] arr)
 {
     int temp=arr[0];
-    foreach (var num in arr)
+    foreach (var number in arr)
     {
-        if (num > temp)
+        if (number > temp)
         {
-            temp = num;
+            temp = number;
         }
     }
     
